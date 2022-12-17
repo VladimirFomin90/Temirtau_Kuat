@@ -1,0 +1,95 @@
+@media only screen and (max-width: 768px) {
+    header .nav_btn {
+        visibility: visible;
+        opacity: 1;
+        padding: 5px;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: var(--textColor);
+        font-size: 1.5rem;
+        display: flex;
+    }
+
+    .button_div {
+        margin-right: 1.3rem;
+    }
+
+    header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+        background-color: var(--mainColor);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    .logo {
+        margin-left: 0.5rem;
+        width: auto;
+    }
+
+    header {
+        width: 100%;
+        height: 40px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+    }
+
+    header .responsive_nav {
+        transform: none;
+    }
+
+    nav .nav_close_btn {
+        position: absolute;
+        top: 1.4rem;
+        right: 1.4rem;
+    }
+
+    nav a {
+        font-size: 1.3rem;
+    }
+
+    .lep {
+        width: 333px;
+    }
+
+    .lep_img {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        object-position: 100% 85%;
+    }
+
+    h4 {
+        font-size: 1rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .map_2gis {
+        display: none;
+        width: 230px;
+        height: 300px;
+    }
+
+    .map_2gis_mobile {
+        display: block;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+
+    .location_on_phone {
+        display: block;
+    }
+
+}
