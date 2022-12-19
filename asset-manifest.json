@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Temirtau_Kuat/static/css/main.111be114.css",
+    "main.js": "/Temirtau_Kuat/static/js/main.f9b914fb.js",
+    "static/media/lep.jpg": "/Temirtau_Kuat/static/media/lep.c319907119102755a58a.jpg",
+    "index.html": "/Temirtau_Kuat/index.html",
+    "main.111be114.css.map": "/Temirtau_Kuat/static/css/main.111be114.css.map",
+    "main.f9b914fb.js.map": "/Temirtau_Kuat/static/js/main.f9b914fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.111be114.css",
+    "static/js/main.f9b914fb.js"
+  ]
+}
