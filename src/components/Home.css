@@ -5,6 +5,22 @@
 	gap: 0.3rem;
 }
 
+.span_center_electro {
+	display: flex;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	gap: 0.3rem;
+}
+
+.phone_call a {
+	color: black;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
 .lep {
     width: 900px;
 }
