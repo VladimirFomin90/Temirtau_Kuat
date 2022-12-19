@@ -53,7 +53,7 @@ const Home = () => {
 
             <span className="location_on_phone">Где мы находимся:</span>
 
-            <div className="map_2gis_mobile" id="map-container" style={{ width: "333px", height: "300px" }}>
+            <div className="map_2gis_mobile">
                 <Map_mobile style={{ width: "333px", height: "300px" }}
 				center={[50.064261, 73.008782]}
 				zoom={16}
@@ -85,12 +85,12 @@ const Map_mobile = () => {
             );
     }, []);
 
-    // return (
-    //     <div
-    //         id="map-container"
-    //         style={{ width: "333px", height: "300px" }}
-    //     ></div>
-    // );
+    return (
+        <div
+            id="map-container"
+            style={{ width: "333px", height: "300px" }}
+        ></div>
+    );
 };
 
 export default Home;
