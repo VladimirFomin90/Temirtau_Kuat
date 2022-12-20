@@ -14,7 +14,6 @@ export const Info = styled.div`
 
 export const Info_p = styled.p`
     display: flex;
-    margin-top: 0.5rem;
     gap: 0.5rem;
     align-items: center;
     justify-content: center;
