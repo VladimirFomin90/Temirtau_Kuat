@@ -92,4 +92,13 @@
         display: block;
     }
 
+    .listening {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 333px;
+        margin: 0 auto;
+
+    }
+
 }
