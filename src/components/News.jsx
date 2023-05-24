@@ -1,15 +1,18 @@
 import { BiTime } from 'react-icons/bi';
 import { News_article, Time_publish } from './News.styled';
+import PowerPoint from './Presentation';
 
 const News = () => {
     return (
         <News_article>
+            <PowerPoint />
             <div className="w-[333px] sm:w-[700px]">
                 На основании п. 639 Правил формирования тарифов утвержденных
                 приказом Министра национальной экономики Республики Казахстан от
-                19 ноября 2019 года №90 <b>26.05.2023 года в 10 часов 00 минут</b> ТОО
-                «Теміртау Қуат» проводит публичные слушания о повышении тарифа
-                на уровень индексации в режиме ONLINE через приложение Zoom:
+                19 ноября 2019 года №90{' '}
+                <b>26.05.2023 года в 10 часов 00 минут</b> ТОО «Теміртау Қуат»
+                проводит публичные слушания о повышении тарифа на уровень
+                индексации в режиме ONLINE через приложение Zoom:
                 <pre>Подключиться к конференции Zoom:</pre>
                 <span className="phone_call">
                     <a href="https://us05web.zoom.us/j/83453206054?pwd=cFQxZldLNVdzUDdyOXBtWUFUeFBXQT09">
